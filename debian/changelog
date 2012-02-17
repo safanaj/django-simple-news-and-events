@@ -1,0 +1,26 @@
+django-simple-news-and-events (0.0.4-servabit0) unstable; urgency=low
+
+  * Renamed Package: from django-simple-news to django-simple-news-and-events
+
+ -- Marco Bardelli <marco.bardelli@servabit.it>  Tue, 01 Feb 2011 09:27:59 +0100
+
+django-simple-news-and-events (0.0.3-servabit1) unstable; urgency=low
+
+  * Cambiato campo in NewsItem: da date a pub_date
+  * Aggiunto campo pub_date a Events, e reso obbligatorio il campo date
+  * Eliminati i campi e i manager riguardanti i siti
+
+ -- Marco Bardelli <marco.bardelli@servabit.it>  Mon, 31 Jan 2011 10:47:13 +0100
+
+django-simple-news-and-events (0.0.2-servabit1) unstable; urgency=low
+
+  * Aggiunti Events
+
+ -- Marco Bardelli <marco.bardelli@servabit.it>  Thu, 27 Jan 2011 08:57:53 +0100
+
+django-simple-news-and-events (0.0.1-servabit1) unstable; urgency=low
+
+  * Initial Package
+
+ -- Marco Bardelli <marco.bardelli@servabit.it>  Fri, 14 Jan 2011 12:55:38 +0100
+
