@@ -1,3 +1,9 @@
+django-simple-news-and-events (0.0.5-servabit1) unstable; urgency=low
+
+  * Renamed Package: Tolta la dipendenza obbligatoria dal cms anche dal pacchetto
+
+ -- Matteo Atti <matteo.atti@aderit.it>  Tue, 01 Feb 2011 09:27:59 +0100
+
 django-simple-news-and-events (0.0.5-servabit0) unstable; urgency=low
 
   * Renamed Package: Tolta la dipendenza obbligatoria dal cms

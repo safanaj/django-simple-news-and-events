@@ -7,7 +7,9 @@ Build-Depends-Indep: python-support (>= 1.0)
 Standards-Version: 3.8.0
 
 Package: python-django-simple-news-and-events
-Depends: ${misc:Depends}, python-django-cms
+Section: python
+Priority: optional
+Depends: ${misc:Depends}, python-django
 Architecture: all
 Conflicts: python-django-news
 Description: News and Events integrated with CMS for Django
