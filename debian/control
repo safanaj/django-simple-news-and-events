@@ -1,4 +1,6 @@
 Source: django-simple-news-and-events
+Section: python
+Priority: optional
 Maintainer: Marco Bardelli <marco.bardelli@servabit.it>
 Build-Depends: debhelper (>= 7.0.50~), quilt
 Build-Depends-Indep: python-support (>= 1.0)
