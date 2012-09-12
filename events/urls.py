@@ -13,7 +13,7 @@ events_dict = {
 	'template_object_name': 'item',
 }
 
-events_date_dict = dict(events_dict, date_field='date')
+events_date_dict = dict(events_dict, date_field='pub_date', allow_future=True)
 
 urlpatterns = patterns('django.views.generic.date_based',
 	url(r'^(?P<year>\d{4})/(?P<month>[a-z]{3})/(?P<day>\w{1,2})/(?P<slug>[-\w]+)/$', 'object_detail', events_date_dict, name="events-item"),
